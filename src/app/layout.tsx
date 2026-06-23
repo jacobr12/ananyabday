@@ -22,12 +22,12 @@ const caveat = Caveat({
 });
 
 export const metadata: Metadata = {
-  title: "🎂 happy birthday, Ananya",
+  title: "🎂 happy birthday ananya, you are amazing and great and awesome",
   description:
-    "A little house for Ananya Udaygiri — wander upstairs and downstairs, and read letters from the people who love her.",
+    "happy birthday ananya, you are amazing and great and awesome. Wander upstairs and downstairs, and read letters from the people who love her.",
   openGraph: {
-    title: "🎂 happy birthday, Ananya",
-    description: "A little house, made for you.",
+    title: "🎂 happy birthday ananya, you are amazing and great and awesome",
+    description: "happy birthday ananya, you are amazing and great and awesome",
     type: "website",
   },
 };

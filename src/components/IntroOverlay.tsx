@@ -40,7 +40,7 @@ export function IntroOverlay({ show, onEnter }: Props) {
                 transition={{ duration: 0.8, ease: "easeOut" }}
                 className="font-display text-4xl text-[#5c4a3a] md:text-5xl"
               >
-                Happy birthday, {friend.firstName}
+                {friend.tagline}
               </motion.h1>
             ) : (
               <motion.div
@@ -50,9 +50,6 @@ export function IntroOverlay({ show, onEnter }: Props) {
                 transition={{ duration: 0.6 }}
                 className="flex flex-col items-center"
               >
-                <p className="font-display text-xl text-[#5c4a3a]/75 md:text-2xl">
-                  {friend.tagline}
-                </p>
                 <motion.button
                   type="button"
                   initial={{ opacity: 0 }}

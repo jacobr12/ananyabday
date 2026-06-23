@@ -1,6 +1,7 @@
 import { ImageResponse } from "next/og";
 
-export const alt = "Happy birthday, Ananya";
+export const alt =
+  "happy birthday ananya, you are amazing and great and awesome";
 export const size = { width: 1200, height: 630 };
 export const contentType = "image/png";
 
@@ -22,21 +23,15 @@ export default function Image() {
         <div style={{ fontSize: 72, marginBottom: 16 }}>🏠</div>
         <div
           style={{
-            fontSize: 48,
+            fontSize: 36,
             color: "#5c4a3a",
             fontWeight: 600,
+            textAlign: "center",
+            maxWidth: 900,
+            padding: "0 48px",
           }}
         >
-          happy birthday, Ananya
-        </div>
-        <div
-          style={{
-            fontSize: 24,
-            color: "#8aa87a",
-            marginTop: 12,
-          }}
-        >
-          a little house, made for you
+          happy birthday ananya, you are amazing and great and awesome
         </div>
       </div>
     ),
