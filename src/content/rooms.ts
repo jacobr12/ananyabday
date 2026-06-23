@@ -258,7 +258,7 @@ export const rooms: HouseRoom[] = [
           name: "Ruby",
           photo: "/photos/ruby.png",
           sealColor: "#f4a0b0",
-          letter: `thanks for being the amazing person that you are ananya! you inspire me in so many ways and i am so lucky to have you,`,
+          letter: `thanks for being the amazing person that you are ananya! you inspire me in so many ways and i am so lucky to have you in my life`,
           signoff: "Jrube",
         },
       },
