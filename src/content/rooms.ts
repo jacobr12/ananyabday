@@ -329,7 +329,7 @@ export const rooms: HouseRoom[] = [
         id: "person-family",
         name: "Family",
         icon: "polaroid",
-        position: { x: 62, y: 150 },
+        position: { x: 52, y: 130 },
         person: {
           name: "Family",
           photo: "/photos/family.png",
@@ -340,10 +340,20 @@ export const rooms: HouseRoom[] = [
         id: "person-adi",
         name: "Adi",
         icon: "polaroid",
-        position: { x: 186, y: 150 },
+        position: { x: 75, y: 200 },
         person: {
           name: "Adi",
           photo: "/photos/adi.jpeg",
+        },
+      },
+      {
+        id: "person-family-2",
+        name: "Family",
+        icon: "polaroid",
+        position: { x: 173, y: 200 },
+        person: {
+          name: "Family",
+          photo: "/photos/family2.png",
         },
       },
     ],
